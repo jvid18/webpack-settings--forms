@@ -1,0 +1,35 @@
+{
+  "name": "webpack-settings-forms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "watch": "webpack --watch --mode development",
+    "clean": "rimraf dist",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/plugin-transform-runtime": "^7.13.9",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/register": "^7.13.8",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^8.0.0",
+    "css-loader": "^5.1.1",
+    "css-minimizer-webpack-plugin": "^1.2.0",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^1.3.9",
+    "rimraf": "^3.0.2",
+    "terser-webpack-plugin": "^5.1.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "sweetalert2": "^10.15.5"
+  }
+}
